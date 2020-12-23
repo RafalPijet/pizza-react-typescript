@@ -6,7 +6,12 @@
         "noEmit": true,
         "isolatedModules": true,
         "esModuleInterop": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "jsx": "react",
+        "sourceMap": true,
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "plugins": [{"name": "typescript-plugin-css-modules"}]
     },
     "include": ["./src/**/*"]
 }
